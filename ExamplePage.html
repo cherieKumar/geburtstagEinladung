@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript">
+  function searchTitle(){
+  return document.getElementById('name').value;
+  }
+</script>
+<body>
+  <label for="Name">Title:</label>
+  <input name="name" id="name" value="Cherie Kumar"><br><br>
+  <button type="button" onclick="document.getElementById('demo').innerHTML = searchTitle()">Click Here to see the Magic</button>
+  <p id="demo"></p>
+</body>
+</html>
